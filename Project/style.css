@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./images/bg-pattern-top.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+main{
+    border-radius: 1rem;
+    box-shadow: 3px 3px 30px 3px hsl(229, 23%, 23%, 40%);
+}
+
+.pattern-card{
+    margin-bottom: -4px;
+    border-radius: .8rem .8rem 0 0;
+}
+
+
+.conteiner-below-image{
+    background: #FFF;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 .8rem .8rem;
+}
+
+.image-victor{
+    border-radius: 3.5rem;
+    border: solid 5px #FFF;
+    margin-top: -3rem;
+}
+
+.div-title{
+    margin-bottom: .3rem;
+    margin-top: .5rem;
+}
+
+.h1-victor{
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.strong-26{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.div-pair-londom{
+    margin-bottom: 1.5rem;
+}
+
+.london{
+    color: hsl(0, 0%, 59%);
+    font-size: 14px;
+}
+
+.line{
+    border: solid 1px hsl(0, 0%, 95%);
+    width: 350px;
+    margin-bottom: 2em;
+
+}
+
+.div-informations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: .8rem;
+}
+
+.title-80K, .title-803K, .title-14K{
+    color: hsl(229, 23%, 23%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pair-photos, .pair-followers, .pair-likes{
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 1.5rem;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: .2rem;
+}
